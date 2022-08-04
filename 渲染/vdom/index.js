@@ -10,14 +10,14 @@ const vdom = {
                 className: 'item',
                 style: {
                     background: 'blue',
-                    color: '#fff'
+                    color: 'red'
                 },
                 onClick: function() {
-                    alert(1);
+                    alert('提示信息');
                 }
             },
             children: [
-                'aaaa'
+                '点我'
             ]
         },
         {
@@ -26,7 +26,7 @@ const vdom = {
                 className: 'item'
             },
             children: [
-                'bbbbddd'
+                '填充内容b'
             ]
         },
         {
@@ -35,7 +35,7 @@ const vdom = {
                 className: 'item'
             },
             children: [
-                'cccc'
+                '填充内容c'
             ]
         }
     ]

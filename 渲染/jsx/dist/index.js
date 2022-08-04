@@ -1,6 +1,6 @@
 const data = {
-  item1: 'abc',
-  item2: '123'
+  item1: '元素1',
+  item2: '元素2'
 };
 
 const jsx = createElement("ul", {
@@ -11,7 +11,7 @@ const jsx = createElement("ul", {
     background: 'red',
     color: 'blue'
   },
-  onClick: () => alert(2)
+  onClick: () => alert('弹出信息')
 }, "aaa"), createElement("li", {
   className: "item"
 }, data.item1, createElement("i", null, "come")), createElement("li", {
